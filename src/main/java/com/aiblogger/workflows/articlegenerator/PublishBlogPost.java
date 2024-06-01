@@ -47,7 +47,7 @@ public class PublishBlogPost implements Tasklet {
         var blockContent = parseBlocks(jobExecution.getExecutionContext().getString(jobVariables.transformedBlocksContentKey()));
 
         String title = blogContent.getString("title");
-        JSONArray category = blogContent.getJSONArray("category");
+        String category = blogContent.getString("categories");
         String status = blogContent.getString("status");
         var blogPost = new BlogArticle(
             title, category, blockContent, status
@@ -91,5 +91,5 @@ public class PublishBlogPost implements Tasklet {
         }
     }
 
-    private record BlogArticle(String title, JSONArray category, String content, String status) {}
+    private record BlogArticle(String title, String categories, String content, String status) {}
 }
