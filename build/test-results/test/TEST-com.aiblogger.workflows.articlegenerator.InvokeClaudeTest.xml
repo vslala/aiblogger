@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.aiblogger.workflows.articlegenerator.InvokeClaudeTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-05-31T22:13:56" hostname="f4d48891fc88" time="12.665">
+  <properties/>
+  <testcase name="should_invoke_claude_pass_the_prompt_and_get_a_response()" classname="com.aiblogger.workflows.articlegenerator.InvokeClaudeTest" time="12.665"/>
+  <system-out><![CDATA[Invoking step: Invoke Claude!
+Here's a short blog post on the random title "The Unexpected Joys of Gardening":
+
+The Unexpected Joys of Gardening
+
+When I first decided to start a garden, I'll admit, it was more out of a desire to grow my own fresh produce than any particular love of gardening itself. I figured it would be a productive hobby, a way to save some money on groceries, and perhaps a chance to get a little exercise outdoors. Little did I know that tending to that small patch of earth would become one of the greatest sources of joy in my life.
+
+There's something incredibly grounding about digging in the soil, feeling that rich, loamy earth on your hands. It's a connection to nature, to the cycle of life, that's all too easy to lose in our modern, hurried existence. With each seed I nurture into a sprout, then a seedling, and finally a vibrant, flowering plant, I'm reminded of the miracles that happen all around us, if we just take the time to notice.
+
+Gardening has taught me patience, the importance of faithfully tending to something to see it reach its full potential. It's shown me the value of hard work and reminded me that great rewards often come from humble beginnings. There's a simple pleasure in watching things grow, nurturing life in a way that's both spiritual and surprisingly therapeutic.
+
+More than just the process, though, I've found unexpected delight in the literal fruit of my labors. The flavor of garden-fresh vegetables and herbs, still warm from the sun, is second to none. Whether it's biting into a juicy tomato, still pooling with the morning dew, or inhaling the rich aroma of freshly-snipped basil, there's a vibrancy and intensity to home-grown produce that simply can't be matched.
+
+
+==========================================================
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
